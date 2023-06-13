@@ -1,10 +1,8 @@
-def cutrod(arr):
+def print_arr(arr):
     n= len(arr)
     for i in range(n):
-        for j in range(i):
-            print(arr[i+j])
+        return print(arr[i])
 
 
-arr=[1, 5 ,8, 9, 10, 17, 17, 20]
-
-print(cutrod(arr) )
+arr=[1,2,3,5,6]
+print(print_arr(arr))
