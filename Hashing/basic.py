@@ -26,7 +26,7 @@ def countfreq(arr,n):
     mp={}
     for x in arr:
         mp[x]=mp.get(x,0)+1
-    for i in range(N):
+    for i in range(n):
         arr[i]=mp.get(i+1,0)
 
 def repeat(arr ,n):
